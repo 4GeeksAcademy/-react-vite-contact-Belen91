@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { fetchTasks, addTask, deleteTask, clearAll } from "../services/api/tasks";
+import { fetchTasks, addTask, deleteTask, clearAll } from "../services/tasks";
 
 export const TaskListPage = () => {
     const [tasks, setTasks] = useState([]);

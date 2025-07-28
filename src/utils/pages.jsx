@@ -1,5 +1,6 @@
 import {GardenPage} from "../pages/GardenPage"
 import {TaskListPage} from "../pages/TaskListPage"
+import { HiringPage } from "../pages/HiringPage"
 
 export const pages = [
     {
@@ -12,6 +13,12 @@ export const pages = [
         name: "Tareas del jardín",
         route: "/tasks",
         component: <TaskListPage/>,
+        showNavigation: true
+    },
+    {
+        name: "Contrata a tu jardinero",
+        route: "/contratar",
+        component: <HiringPage/>,
         showNavigation: true
     }
 ]
